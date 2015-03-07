@@ -2,7 +2,7 @@ require "fizz_buzz"
 
 describe FizzBuzz do
   it "returns 'fizz' for multiples of 3" do
-    expect(subject.call 6).to eq "fizz"
+    expect(subject.call 9).to eq "fizz"
   end
 
   it "returns 'buzz' for multiples of 5" do
