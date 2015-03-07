@@ -16,4 +16,9 @@ describe FizzBuzz do
   it "returns the number (as a string) otherwise" do
     expect(subject.call 8).to eq "8"
   end
+
+  it "works for the first few numbers" do
+    result = (1..15).map {|n| subject.call n }
+    expect(result).to eq %w[1 2 fizz 4 buzz fizz 7 8 fizz buzz 11 fizz 13 14 fizzbuzz]
+  end
 end
