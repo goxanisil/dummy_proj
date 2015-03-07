@@ -1,4 +1,4 @@
-require_relative "fizz_buzz"
+require "fizz_buzz"
 
 describe FizzBuzz do
   it "returns 'fizz' for multiples of 3" do
